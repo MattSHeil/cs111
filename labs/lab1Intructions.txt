@@ -1,7 +1,0 @@
-Create a program that asks the user to enter two integer numbers, then tells the user: the sum of the numbers, the difference of the numbers (first minus second), and the product of the numbers.  Each of these should be output as a separate line and include the equation.
-Sample Output:
-Enter an integer: 2 (user entered 2)
-Enter another integer: 3 (user entered 3)
-2+3=5
-2-3=-1
-2*3=6
