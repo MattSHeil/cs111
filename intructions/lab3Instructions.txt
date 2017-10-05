@@ -1,0 +1,14 @@
+Ask the user to enter the names of three items and their prices, and the tax rate as a decimal.  After they enter this information calculate the subtotal, tax, and total, and print out a receipt as formatted below.  The item names may contain multiple words (assume they will not overflow).  The line of stars is 30 characters long.
+
+******************************
+Apple                    $1.29
+Egg Salad Sandwich       $2.79
+Pie                      $5.99
+
+Subtotal                $10.07
+Tax                      $0.81
+Total                   $10.88
+******************************
+Thank you for shopping with us
+******************************
+

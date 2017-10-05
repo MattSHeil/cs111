@@ -1,0 +1,40 @@
+Write a function called treeTop that prints the top of a tree.  It should take no parameters and return void.  Write a second function called treeTrunk that prints the trunk of a tree.  It should take one integer as a parameter for height (how many lines tall the trunk is), and also have a return type of void.  Finally, create a function called drawTrees that takes two integer parameters, one for height and one for the number of trees to draw.  drawTrees should use treeTop and treeTrunk.
+Have the user enter the height of the trees (same for all) and number of trees to draw.  Remember that to draw a backslash you need two backslashes.
+
+Test cases:
+Test case 1:
+Enter tree height: <2>
+Enter number of trees: <3>
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+
+Test case 1:
+Enter tree height: <5>
+Enter number of trees: <1>
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+  | |
+  | |
+  | |

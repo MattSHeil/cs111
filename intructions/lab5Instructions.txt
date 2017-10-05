@@ -1,0 +1,4 @@
+¥ Ask the user to enter an integer
+¥ If it is in the range of 0-10 inclusive print it in words (i.e. 3  three).
+¥ If it is not in the range 0-10 inclusive say so.
+¥ Complete this lab by using a switch statement

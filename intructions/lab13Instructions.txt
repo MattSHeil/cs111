@@ -1,0 +1,29 @@
+Write a function called dist that takes two double values as parameters and returns the absolute value of the difference of the two numbers (i.e. how far apart the numbers would be on a number line).  Do NOT use cmath/math.h for this lab.
+In main ask the user to enter the two values, then print out the numbers and result in a sentence.
+The function dist should NOT print anything or receive any input from the user (no cin or cout in this function).
+
+Test cases (Slight rounding errors are OK):
+Test case 1:
+Input a number: <5.3>
+Input another number: <1.7>
+The distance between 5.3 and 1.7 is 3.6
+
+Test case 2:
+Input a number: <1.7>
+Input another number: <5.3>
+The distance between 1.7 and 5.3 is 3.6
+
+Test case 3:
+Input a number: <2.5>
+Input another number: <-3.4>
+The distance between 2.5 and -3.4 is 5.9
+
+Test case 4:
+Input a number: <-4.7>
+Input another number: <4.7>
+The distance between -4.7 and 4.7 is 9.4
+
+Test case 5:
+Input a number: <4.7>
+Input another number: <4.7>
+The distance between 4.7 and 4.7 is 0

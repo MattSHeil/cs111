@@ -1,0 +1,8 @@
+¥ Draw a flowchart for the following program, then code it (making changes later is fine)
+¥ Create a program that asks the user to enter an integer.
+¥ If it is even:
+¥ Print whether or not it is divisible by both 5 and 3.
+¥ If it is odd:
+¥ Print whether or not it is negative
+¥ Whether it is even or odd print whether it is between -100 and 100 inclusive (-100 and 100 are in the range).
+¥ Note: treat zero as even.

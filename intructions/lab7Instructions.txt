@@ -1,0 +1,21 @@
+Ask the user to enter a positive integer, or -1 to quit.  If the user enters a positive integer repeat it and tell them whether it is even or odd.  If the user enters -1 then tell them how many odd numbers they entered and how many even numbers they entered.  If they entered no numbers, tell them “no numbers were entered” instead of saying 0 even numbers and 0 odd numbers.
+Think about the three types of loops we have learned (while, do-while and for) and choose the most appropriate type for this problem.
+You should test your program and make sure it works before asking me to check it off!  The examples below are test cases.  Your code should work properly with all test cases listed, as well as with other inputs.  Please test your code with all test cases included with each lab, and have these test cases already run and on screen when you call me over to check you off.
+
+Example Output:
+ <data in angle brackets is user input followed by the Enter key>
+
+Test Case 1:
+Enter an integer (-1 to quit):  <10> 
+10 is even.
+Enter an integer (-1 to quit):  <5>
+5 is odd.
+Enter an integer (-1 to quit):  <12> 
+12 is even.
+Enter an integer (-1 to quit):  <-1> 
+Odd numbers: 1
+Even numbers: 2
+
+Test Case 2:
+Enter an integer (-1 to quit):  <-1> 
+No numbers were entered.

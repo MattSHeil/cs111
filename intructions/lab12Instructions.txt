@@ -1,0 +1,24 @@
+Create an array of 1000 double datatype elements, store 7.5 times the array slot number as the value in each array slot.
+Ask the user to enter an integer between 0 and 999 – print the value of that element of the array (if the user entered 121 you would print the contents of array slot 121 which would be 907.5).
+Input validation: Do not check out of range values!  Instead inform the user that the value is out of range.
+
+Example Output:
+Test Case 1:
+Enter an array slot number: <40>
+The value in array slot 40 is 300
+
+Test Case 2:
+Enter an array slot number: <0>
+The value in array slot 0 is 0
+
+Test Case 3:
+Enter an array slot number: <999>
+The value in array slot 999 is 7492.5
+
+Test Case 4:
+Enter an array slot number: <1000>
+Value out of range.
+
+Test Case 5:
+Enter an array slot number: <-1>
+Value out of range.

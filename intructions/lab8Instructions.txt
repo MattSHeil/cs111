@@ -1,0 +1,19 @@
+Ask the user to enter an integer (positive or negative does not matter).  Repeat the integer given by the user and tell them whether it is even or odd.  After the user enters the first integer, and after each subsequent integer entered, ask the user if they wish to enter another integer.  If they answer ‘Y’ or ‘y’ then repeat, if they answer ‘N’ , ‘n’ , or any other character then tell them how many odd numbers they entered and how many even numbers they entered.  Note that the user should always enter at least one integer – only ask them if they have another after the first entry.
+Think about the three types of loops we have learned (while, do-while and for) and choose the most appropriate type for this problem.
+You should test your program and make sure it works before asking me to check it off!  The examples below are test cases.  Your code should work properly with all test cases listed, as well as with other inputs.  Please test your code with all test cases included with each lab, and have these test cases already run and on screen when you call me over to check you off.
+
+Example Output:
+ <data in angle brackets is user input followed by the Enter key>
+
+Test Case 1:
+Enter an integer: <7>
+7 is odd.
+Do you have another integer to enter (Y/N)?: Y
+Enter an integer: <-5>
+-5 is odd.
+Do you have another integer to enter (Y/N)?: y
+Enter an integer: <16> 
+16 is even.
+Do you have another integer to enter (Y/N)?: N
+Odd numbers: 2
+Even numbers: 1

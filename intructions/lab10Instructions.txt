@@ -1,0 +1,5 @@
+Create a file named sentence.txt and write a sentence the user enters to it using ofstream.
+Test case 1:
+Enter a sentence: <user enters a sentence>
+File Contents: 
+sentence.txt contains the user’s sentence after the program is run.  Show this by typing “cat sentence.txt” after you run your program.
