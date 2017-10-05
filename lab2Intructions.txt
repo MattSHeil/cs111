@@ -1,7 +1,0 @@
-- Ask the user to enter their name, print “Hi [name]” to the screen.
-- Ask the user whether they are a CS major or not – print the result to the screen as “CS Major: [result]” (note that this will display numerically – that is OK for now).
-- Ask the user to enter their favorite punctuation mark – print “Your favorite punctuation mark is: [result].”
-- Ask the user to enter two numbers – store them as integers.  Display the result of dividing the first by the second both as a decimal and as a value and remainder.
-
-You should clearly communicate to the user what they need to enter for each input, and what you are displaying for each output.
-All of your variables must be of appropriate data types.
