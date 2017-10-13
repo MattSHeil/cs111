@@ -1,0 +1,40 @@
+Create a function that accepts four double values as parameters.  These four double values should NOT modify the related values in main.  The function should return the minimum of the four values, maximum of the four values, and average of the four values.  Hint: Remember pass-by-reference to return multiple values – your function should have seven parameters and a return type of void.
+In main, ask the user to enter the four values, and then print the minimum, maximum and average.  Your function should NOT print anything or read in anything (no cin/cout), only main.
+
+Test Cases:
+
+Test Case 1:
+
+Please enter four numbers:
+Number 1: <4.6>
+Number 2: <3.7>
+Number 3: <-1.7>
+Number 4: <-7.8>
+Minimum is -7.8
+Maximum is 4.6
+Average is -0.3
+
+Test Case 2:
+
+Please enter four numbers:
+Number 1: <-7.8>
+Number 2: <3.7>
+Number 3: <-1.7>
+Number 4: <4.6>
+Minimum is -7.8
+Maximum is 4.6
+Average is -0.3
+
+Test Case 3:
+
+Please enter four numbers:
+Number 1: <5.3>
+Number 2: <5.3>
+Number 3: <5.3>
+Number 4: <5.3>
+Minimum is 5.3
+Maximum is 5.3
+Average is 5.3
+
+
+

@@ -1,0 +1,82 @@
+Lab 15
+Modify Lab 14 so that instead of closing we ask the user if they want more trees after drawing their request, and if they enter “Y” or ‘y’ repeat the process (enter number and height, then draw).  After drawing each “batch” of trees also tell the user how many trees have been drawn overall.  Use a static variable in drawTrees to track this information.
+
+
+Write a function called treeTop that prints the top of a tree.  It should take no parameters and return void.  Write a second function called treeTrunk that prints the trunk of a tree.  It should take one integer as a parameter for height (how many lines tall the trunk is), and also have a return type of void.  Finally, create a function called drawTrees that takes two integer parameters, one for height and one for the number of trees to draw.  drawTrees should use treeTop and treeTrunk.
+Have the user enter the height of the trees (same for all) and number of trees to draw.  Remember that to draw a backslash you need two backslashes.
+
+Test case:
+Enter tree height: <2>
+Enter number of trees: <3>
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+
+There are currently 3 trees in the forest.
+
+Do you want more trees (Y/N) ?: <y>
+
+Enter tree height: <5>
+Enter number of trees: <1>
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+  | |
+  | |
+  | |
+  | |
+
+There are currently 4 trees in the forest.
+
+Do you want more trees (Y/N) ?: <Y>
+
+Enter tree height: <1>
+Enter number of trees: <3>
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+
+   ^
+  / \  
+ /   \
+/_____\
+  | |
+
+There are currently 7 trees in the forest.
+
+Do you want more trees (Y/N) ?: <N>
+
+
+
+
+
